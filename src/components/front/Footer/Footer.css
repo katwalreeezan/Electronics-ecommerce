@@ -1,0 +1,62 @@
+.footer{
+    background-color: blueviolet;
+    height: 425px;
+    position: relative;
+
+}
+
+.footerone{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden; 
+    
+
+    
+}
+.boxone,.boxtwo,.boxthree{
+    padding-top:  20px;
+    color: white;
+}
+.boxone a{
+    color: white;
+    text-decoration: none;
+
+}
+.boxone{
+    width:400px;
+    height: 379px;
+    position: relative;
+    
+}
+.boxtwo{
+    width:400px;
+    height: 379px;
+    position: relative;
+}
+.boxthree{
+    width:400px;
+    height: 379px;
+    position: relative;
+    
+   
+}
+.boxthree img{
+    width:350px;
+    height: 300px;
+    padding: 5px;
+    
+}
+.line{
+    border-bottom: 2px solid white;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    
+}
+.fblogo{
+    display: inline-block;
+    
+}

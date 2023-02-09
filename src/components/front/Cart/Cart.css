@@ -1,0 +1,75 @@
+.list img{
+    width:200px;
+    height: 200px;
+    box-shadow: 0 8px 8px 8px gray;
+}
+.headerlist{
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+    
+
+}
+.items{
+    border:1px solid black;
+    width:50%;
+    margin: 90px auto;
+    text-align: center;
+    
+    
+    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.name{
+    margin-left: 10px;
+}
+
+.add,.remove{
+    width:30px;
+    margin-right:15px;
+    font-weight: 800;
+    border: none;
+    border-radius: 3px;
+    color:white;
+    cursor:pointer;
+}
+.add{
+    background-color: green;
+}
+.remove{
+    background-color: red;
+}
+.add:active{
+    transform: translateY(1.2px);
+}
+.remove:active{
+    transform: translateY(1.2px);
+}
+.totalprice{
+   
+    display: flex;
+    padding-left: 24%;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top:7px;
+    padding-bottom: 7px;
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+}
+.carttotalprice{
+    padding-left: 50%;
+}
+

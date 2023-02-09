@@ -17,7 +17,7 @@
     margin: 40px auto;
     box-shadow: 0 8px 8px 8px gray;
 }
-button{
+.btn{
     border: none;
     outline: none;
     padding:15px;

@@ -1,29 +1,37 @@
 .header{
+    display: block;
+}
+.headerside{
     background-color:blueviolet;
-    min-height:80px;
+    min-height:9rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top:0;
-    margin: 0 auto;
-
+    position: relative; 
 }
 .logo{
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    padding-left: 40px;
+    padding-left: 2.5rem;
 }
 .header a{
     text-decoration: none;
     color: white;
 }
+
+
 .home,.contact,.cart,.product{
-    padding: 0 20px;
+    padding: 0 1.25rem;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 a:hover{
     color: black;
+}
+.cartlength{
+vertical-align: super;
+position: absolute;
+top:0.625rem;
+
 }
